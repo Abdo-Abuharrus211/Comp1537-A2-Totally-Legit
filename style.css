@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+header{
+    background-color: #525252;
+}
+
+#my-navbar{
+    background-color: #313131;
+}
+
+.navbar-brand{
+    color: #EC625F;
+}
