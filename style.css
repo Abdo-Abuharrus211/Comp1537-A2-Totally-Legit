@@ -1,4 +1,5 @@
 body{
+    font-family: 'Courier New', Courier, monospace;
     color: #20C20E;
     text-align: center;
     background-color: #1A120B;
@@ -13,9 +14,9 @@ header{
 }
 
 .navbar-brand{
-    color: #FF4C29;
+    color: #ff065b;
 }
 
 .navbar-brand:hover{
-    color: #C6DE41;
+    color: #ff6e27;
 }
