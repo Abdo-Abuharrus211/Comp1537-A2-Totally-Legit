@@ -11,5 +11,9 @@ header{
 }
 
 .navbar-brand{
-    color: #EC625F;
+    color: #FF4C29;
+}
+
+.navbar-brand:hover{
+    color: #C6DE41;
 }
