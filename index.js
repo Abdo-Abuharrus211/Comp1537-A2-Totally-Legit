@@ -15,7 +15,7 @@ $(document).ready(function () {
                 switch (currentButton) {
 
                     case "1":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 0;
                         $("#view-box").append(
@@ -25,7 +25,7 @@ $(document).ready(function () {
                         break;
 
                     case "2":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 2;
                         $("#view-box").append(
@@ -35,7 +35,7 @@ $(document).ready(function () {
                         break;
 
                     case "3":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 4;
                         $("#view-box").append(
@@ -45,7 +45,7 @@ $(document).ready(function () {
                         break;
 
                     case "4":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 6;
                         $("#view-box").append(
@@ -55,7 +55,7 @@ $(document).ready(function () {
                         break;
 
                     case "5":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 8;
                         $("#view-box").append(
@@ -65,7 +65,7 @@ $(document).ready(function () {
                         break;
 
                     case "6":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 10;
                         $("#view-box").append(
@@ -75,7 +75,7 @@ $(document).ready(function () {
                         break;
 
                     case "7":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 12;
                         $("#view-box").append(
@@ -85,7 +85,7 @@ $(document).ready(function () {
                         break;
 
                     case "8":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 14;
                         $("#view-box").append(
@@ -95,7 +95,7 @@ $(document).ready(function () {
                         break;
 
                     case "9":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 16;
                         $("#view-box").append(
@@ -105,7 +105,7 @@ $(document).ready(function () {
                         break;
 
                     case "10":
-                        $("#welcome-banner").empty();
+                        $("#welcome-box").empty();
                         $("#view-box").empty();
                         index = 18;
                         $("#view-box").append(
@@ -117,7 +117,7 @@ $(document).ready(function () {
                         // For the prev and next buttons
                         case "prev":
                             console.log("prev");
-                            $("#welcome-banner").empty();
+                            $("#welcome-box").empty();
                             $("#view-box").empty();
                             if (index > 1) {
                             $("#view-box").append(
@@ -133,7 +133,7 @@ $(document).ready(function () {
 
                         case "next":
                             console.log("next");
-                            $("#welcome-banner").empty();
+                            $("#welcome-box").empty();
                             $("#view-box").empty();
                             if (index < 18) {
                             $("#view-box").append(
