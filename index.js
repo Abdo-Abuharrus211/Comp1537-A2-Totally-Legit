@@ -135,12 +135,22 @@ $(document).ready(function () {
                             console.log("next");
                             $("#welcome-box").empty();
                             $("#view-box").empty();
-                            if (index < 18) {
+                            if (index < 18 && index != 0) {
                             $("#view-box").append(
                                 `<img src="${firstTwentyMovies[index + 1].large_cover_image}" alt="${firstTwentyMovies[index + 1].title}"> 
                                  <img src="${firstTwentyMovies[index + 2].large_cover_image}" alt="${firstTwentyMovies[index + 2].title}"> 
                                 `)
                                 index = index + 2;
+                            }
+                            else if(index == 0){
+                                $("#welcome-box").empty();
+                                $("#view-box").empty();
+                                $("#view-box").append(
+                                    `<img src="${firstTwentyMovies[index].large_cover_image}" alt="${firstTwentyMovies[index + 1].title}"> 
+                                     <img src="${firstTwentyMovies[index + 1].large_cover_image}" alt="${firstTwentyMovies[index + 2].title}"> 
+                                    `)
+                                    index = index + 1;
+    
                             }
                             else{
                                 $("#10").trigger("click");
