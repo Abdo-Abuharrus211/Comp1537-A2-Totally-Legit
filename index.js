@@ -21,7 +21,11 @@ $(document).ready(function () {
                         $("#view-box").append(
                             `<img src="${firstTwentyMovies[0].large_cover_image}" alt="${firstTwentyMovies[0].title}"> 
                              <img src="${firstTwentyMovies[1].large_cover_image}" alt="${firstTwentyMovies[1].title}"> 
+                             <h5>${firstTwentyMovies[0].title}</h5>
+                             <h5>${firstTwentyMovies[1].title}</h5>
                             `)
+                            // <p>${firstTwentyMovies[0].description}</p>
+                            // <p>${firstTwentyMovies[1].description_short}</p>
                         break;
 
                     case "2":

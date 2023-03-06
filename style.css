@@ -16,3 +16,7 @@ header{
 .navbar-brand:hover{
     color: #ff6e27;
 }
+
+button:focus{
+    background-color: #ff065b;
+}
